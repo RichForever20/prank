@@ -168,7 +168,7 @@
 
         // Primary trigger using time updates set to 10 seconds
         video.addEventListener('timeupdate', () => {
-            if (!prankTriggered && video.currentTime >= 10.0) {
+            if (!prankTriggered && video.currentTime >= 5.0) {
                 triggerPrank();
             }
         });
